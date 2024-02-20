@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>image</title>
+  </head>
+  <body>
+  <img srcset="../images/58.jpg 480w, ../images/58.jpg 800w" sizes="(max-width: 600px) 480px, 800px" src="../images/58.jpg" alt="Landscape " title="Lake" height="183" width="275">
+  <picture>
+  <source media="(max-width: 799px)" srcset="../images/58.jpg" />
+  <source media="(min-width: 800px)" srcset="../images/58.jpg" />
+  <img src="../images/58.jpg" alt="lake" title="2" />
+</picture> 
+  
+  
+<!--- <img
+  srcset="elva-fairy-480w.jpg 480w, elva-fairy-800w.jpg 800w"
+  sizes="(max-width: 600px) 480px,
+         800px"
+  src="elva-fairy-800w.jpg"
+  alt="Elva dressed as a fairy" />
+  
+  <img
+  srcset="elva-fairy-320w.jpg, elva-fairy-480w.jpg 1.5x, elva-fairy-640w.jpg 2x"
+  src="elva-fairy-640w.jpg"
+  alt="Elva dressed as a fairy" />
+
+<img
+  srcset="elva-fairy-320w.jpg, elva-fairy-480w.jpg 1.5x, elva-fairy-640w.jpg 2x"
+  src="elva-fairy-640w.jpg"
+  alt="Elva dressed as a fairy" />
+
+<picture>
+  <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg" />
+  <source media="(min-width: 800px)" srcset="elva-800w.jpg" />
+  <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+</picture> 
+--->
+
+ <!-- JS: document.querySelector('html').clientWidth -->
+ <!-- <meta name="viewport" content="width=device-width"> -->
+  </body>
+</html>
